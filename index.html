@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <nav class="centered-nav">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <!-- Hero / Homepage -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="text">
+        <p class="badge">✨ This is Leila Lyn Castrodes</p>
+        <h1>A Student and <br><span>a Graphic Designer.</span></h1>
+        <p class="subtext">Explore and get to know more about me!</p>
+        <div class="buttons">
+          <a href="#portfolio" class="btn primary">My Works</a>
+          <a href="your-cv.pdf" class="btn secondary" download>Download CV</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="PROFILE.jpg" alt="Your Photo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <div class="about-img">
+        <img src="PROFILE.jpg" alt="About Me Photo">
+      </div>
+      <div class="about-text">
+        <h2>More <span>About Me</span></h2>
+        <p>Hi! I’m a creative and detail-oriented student currently pursuing a degree in Information Technology. I have a strong interest in design, especially in creating layouts and visual content. Over the years, I’ve worked on various school and personal projects that helped me develop my skills in graphic design and layout editing.</p>
+        <p>Aside from design, I also enjoy helping others through tutoring and written assignments. I’ve been part of creative teams in both high school and college, where I contributed to different design tasks and school activities. I’m always eager to learn, improve, and take on new challenges that allow me to grow as a student and creative individual.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="section-title">
+      <h2>Skills & <span>Learning</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <img src="creativity.png" alt="Creativity">
+        <p>Creativity</p>
+      </div>
+      <div class="skill-item">
+        <img src="layout.png" alt="Design & Visual Layout">
+        <p>Design & Visual Layout</p>
+      </div>
+      <div class="skill-item">
+        <img src="editing.png" alt="Writing & Editing">
+        <p>Writing & Editing</p>
+      </div>
+      <div class="skill-item">
+        <img src="learning.png" alt="Continuous Learning">
+        <p>Continuous Learning</p>
+      </div>
+      <div class="skill-item">
+        <img src="adaptability.png" alt="Adaptability">
+        <p>Adaptability</p>
+      </div>
+      <div class="skill-item">
+        <img src="patience.png" alt="Patience">
+        <p>Patience</p>
+      </div>
+      <div class="skill-item">
+        <img src="detail_oriented.png" alt="Detail-Oriented">
+        <p>Detail-Oriented</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="section-title">
+      <h2>Get in <span>Touch</span></h2>
+    </div>
+    <div class="contact-content">
+      <div class="contact-info">
+        <p>📧 Email: <a href="mailto:your@email.com">castrodes.leila_lyn@hnu.edu.ph</a></p>
+        <p>💼 GitHub: <a href="https://github.com/yourusername" target="_blank">casthru-l</a></p>
+      </div>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <div id="email-error" class="error"></div>
+    
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required><br>
+        <div id="phone-error" class="error"></div>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+    
+        <button type="submit">Submit</button>
+      </form>
+        
+    </div>
+  </section>
+  
+  <!-- Theme Switch Button -->
+  <button id="theme-toggle" title="Toggle Light/Dark Mode">🌓</button>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
